@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 AutoFE-Agent Pro
 
 Enterprise-grade Automated Feature Engineering with Explainable AI built using Streamlit, Scikit-Learn, Pandas, and Plotly.
@@ -178,3 +179,7 @@ Areas of Interest:
 ---
 
 ⭐ If you found this project useful, consider giving it a star.
+=======
+# Auto_Feature_Engineering_Agent
+Agent-based feature engineering system built with Python, Streamlit, Scikit-Learn, and Plotly for automated ML feature discovery.
+>>>>>>> 8f2f5f262e839287610d36fe8665eca3ebd8b953
