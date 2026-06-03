@@ -1,20 +1,27 @@
-<<<<<<< HEAD
-# 🚀 AutoFE-Agent Pro
+# 🚀 Auto Feature Engineering Agent
 
-Enterprise-grade Automated Feature Engineering with Explainable AI built using Streamlit, Scikit-Learn, Pandas, and Plotly.
+An AI-powered automated feature engineering platform built with **Python**, **Streamlit**, **Scikit-Learn**, **Pandas**, and **Plotly**.
+
+The application automatically analyzes datasets, generates meaningful engineered features, evaluates their impact on machine learning performance, and provides explainable insights through interactive visualizations.
+
+---
 
 ## 📌 Overview
 
-AutoFE-Agent Pro automatically analyzes datasets, generates engineered features, evaluates their impact on machine learning performance, and provides explainable insights for every generated feature.
+Feature engineering is one of the most important steps in building high-performing machine learning models. This project automates the process by:
 
-The application uses an agent-based approach:
+* Detecting column data types automatically
+* Generating candidate engineered features
+* Evaluating feature usefulness using machine learning
+* Ranking features based on performance improvement
+* Providing human-readable explanations for generated features
+
+The system follows an agent-based architecture consisting of:
 
 * Data Analysis Agent
 * Feature Generation Agent
 * Evaluation Agent
 * Explainability Engine
-
-The system identifies engineered features that improve model accuracy and presents results through interactive visualizations.
 
 ---
 
@@ -22,7 +29,7 @@ The system identifies engineered features that improve model accuracy and presen
 
 ### 🔍 Automatic Data Type Detection
 
-Detects:
+Automatically identifies:
 
 * Numerical Columns
 * Categorical Columns
@@ -44,37 +51,52 @@ Detects:
 
 * Frequency Encoding
 
-#### Date Features
+#### DateTime Features
 
 * Year
 * Month
-* Weekday
+* Weekday Extraction
 
 #### Text Features
 
-* Word Count
-* Keyword Indicators
+* Word Count Features
+* Keyword Detection Features
 
-### 🤖 Machine Learning Evaluation
+---
+
+## 🤖 Machine Learning Evaluation
+
+Each generated feature is evaluated using:
 
 * Random Forest Classifier
 * Cross Validation
-* Accuracy-Based Ranking
+* Accuracy-Based Scoring
 
-### 📊 Interactive Visualizations
+The system compares the baseline model performance against the model enhanced with each engineered feature and ranks them accordingly.
 
-* Feature Improvement Bar Chart
-* Model Accuracy Gauge
-* Correlation Heatmap
+---
 
-### 💡 Explainable AI
+## 📊 Interactive Visualizations
 
-For every generated feature:
+The application provides:
+
+* Feature Improvement Bar Charts
+* Model Accuracy Gauge Charts
+* Correlation Heatmaps
+* Explainable Feature Insights
+
+---
+
+## 💡 Explainable AI Insights
+
+For every selected feature, the platform generates:
 
 * Feature Type
 * Mathematical Formula
 * Performance Improvement
-* Human-readable Explanation
+* Human-Readable Explanation
+
+This helps users understand why a feature contributes to model performance.
 
 ---
 
@@ -94,8 +116,9 @@ For every generated feature:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/AutoFE-Agent-Pro.git
-cd AutoFE-Agent-Pro
+git clone https://github.com/Karthik-0027/Auto_Feature_Engineering_Agent.git
+
+cd Auto_Feature_Engineering_Agent
 ```
 
 Install dependencies:
@@ -107,7 +130,7 @@ pip install -r requirements.txt
 Run the application:
 
 ```bash
-streamlit run auto_feature_engineering.py
+streamlit run Auto_Feature_Engineering.py
 ```
 
 ---
@@ -118,7 +141,7 @@ streamlit run auto_feature_engineering.py
 * XLSX
 * XLS
 
-You can upload local files or provide dataset URLs.
+Datasets can be uploaded directly or loaded from URLs.
 
 ---
 
@@ -126,35 +149,40 @@ You can upload local files or provide dataset URLs.
 
 ### Engineered Dataset
 
-* autofe_premium_features.csv
+```text
+autofe_premium_features.csv
+```
 
 ### Executive Report
 
-* autofe_executive_report.md
+```text
+autofe_executive_report.md
+```
 
-Contains:
+The generated report includes:
 
 * Baseline Accuracy
 * Enhanced Accuracy
 * Top Engineered Features
 * Feature Explanations
+* Performance Improvements
 
 ---
 
 ## 🎯 Use Cases
 
-* Automated Machine Learning
-* Data Science Projects
+* Automated Machine Learning (AutoML)
 * Feature Engineering Research
+* Data Science Projects
 * Predictive Analytics
-* Academic Projects
-* Enterprise AI Solutions
+* Academic Research
+* Machine Learning Prototyping
 
 ---
 
 ## 🚀 Future Enhancements
 
-* Regression Support
+* Regression Model Support
 * SHAP Explainability
 * Deep Learning Evaluation
 * Multi-Model Benchmarking
@@ -164,9 +192,9 @@ Contains:
 
 ## 👨‍💻 Author
 
-Karthik Gollapudi
+**Karthik Gollapudi**
 
-Final Year B.Tech (Data Science)
+Final Year B.Tech – Data Science
 
 Areas of Interest:
 
@@ -179,7 +207,3 @@ Areas of Interest:
 ---
 
 ⭐ If you found this project useful, consider giving it a star.
-=======
-# Auto_Feature_Engineering_Agent
-Agent-based feature engineering system built with Python, Streamlit, Scikit-Learn, and Plotly for automated ML feature discovery.
->>>>>>> 8f2f5f262e839287610d36fe8665eca3ebd8b953
